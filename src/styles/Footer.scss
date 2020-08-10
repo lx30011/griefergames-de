@@ -1,0 +1,47 @@
+.footer {
+  background: linear-gradient(180deg, rgb(10, 32, 41) 0%, rgb(0, 0, 0) 100%);
+
+  .footerOuterContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 30px;
+
+    .footerInnerContainer {
+
+    }
+
+    .footerFollowUs {
+      div {
+        display: flex;
+        align-items: center;
+        margin: 5px 0px;
+
+        a {
+          margin-left: 10px;
+          color: white;
+          text-decoration: none;
+        }
+
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+  }
+
+  .footerBottom {
+    display: flex;
+    justify-content: center;
+
+    a {
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
